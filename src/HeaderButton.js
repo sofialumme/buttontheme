@@ -1,9 +1,11 @@
 import React from 'react';
+import { buttonThemes } from './App';
 
 function HeaderButton() {
+
   return (
     <div>
-      <button>Press me</button>
+      <button style={buttonThemes.black}>Press me</button>
     </div>
   );
 }
